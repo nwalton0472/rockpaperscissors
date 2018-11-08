@@ -5,7 +5,12 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-
-
 // DOCUMENT READY FUNCTION BELOW
 
+$(".shoot").click(function(){
+    $("#userChoice").text($("#input").val());
+});
+
+$(".shoot").click(function(){
+    $("#computerChoice").text($("#input").val());
+});

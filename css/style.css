@@ -1,9 +1,19 @@
 .row{
   text-align:center;
-  
+  display: flex;
 }
+
 #choices{
   display:flex;
   justify-content:space-between;
   
+}
+
+#input{
+  display:flex;
+  justify-content:space-between;
+}
+
+#userChoice{
+  display: flex;
 }
