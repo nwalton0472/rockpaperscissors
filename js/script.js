@@ -25,9 +25,23 @@ $("#shoot").click(function(){
       userChoice = "paper"
       $("#userChoice").text(userChoice);
   } else {
-        computerChoice = "siccors"
+        computerChoice = "scissors"
         $("#computerChoice").text(computerChoice);
     }
+    if(userChoice === "rock" && computerChoice === "rock") {
+    winner ==="tie" 
+    }
+    console.log(winner);
+    
+    if(computerChoice === "paper" && userChoice ==="rock") {
+    winner ==="computer"
+    }
+    console.log(winner);
+    
+    if(computerChoice === "scissors" && userChoice === "rock") {
+        winner ==="user"
+    }
+    console.log(winner);
 });
 
 
