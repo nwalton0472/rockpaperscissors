@@ -1,6 +1,6 @@
 .row{
   text-align:center;
-  display: flex;
+  
 }
 
 #choices{
@@ -9,14 +9,7 @@
   
 }
 
-#input{
-  display:flex;
-  justify-content:space-between;
-}
 
-#userChoice{
-  display: flex;
-}
 
 body {
   background-color:#f4a742;

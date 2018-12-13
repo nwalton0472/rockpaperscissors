@@ -16,7 +16,6 @@ $("#shoot").click(function(){
     randomNumber = Math.random();
     $("#userChoice").text(userChoice);
     
-    console.log();
     if (randomNumber < .333){
     computerChoice = "rock"
     $("#computerChoice").text(computerChoice);
@@ -42,6 +41,28 @@ $("#shoot").click(function(){
         winner ==="user"
     }
     console.log(winner);
+    
+    if(userChoice=== "paper" && computerChoice ==="scissors") {
+        winner ==="computer"
+    }
+    console.log(winner);
+    
+    if(computerChoice ==="rock" && userChoice ==="paper") {
+        winner ==="user"
+    }
+    console.log(winner);
+    
+    if(userChoice ==="paper" && computerChoice ==="paper") {
+        winner=== "tie"
+    }
+    console.log(winner);
+    
+    if(computerChoice ==="scissors" && userChoice ==="scissors") {
+        winner==="tie"
+    }
+    console.log(winner);
+    
+    alert(winner)
 });
 
 
